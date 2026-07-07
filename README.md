@@ -87,7 +87,7 @@ The project uses **Ridge Regression**, a regularized linear regression algorithm
 Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/algerian-forest-fire-prediction.git
+git clone https://github.com/Riddhi256/algerian-forest-fire-prediction.git
 ```
 
 Navigate to the project folder
