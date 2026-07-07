@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FWI Predictor</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #fdfbfb, #ebedee);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background: #ffeaf7cc;
+            padding: 40px;
+            border-radius: 25px;
+            border: 5px solid rgba(90, 90, 90, 0.41);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+            max-width: 400px;
+        }
+
+        h1 {
+            color: #6d597a;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #7b6d8d;
+            font-size: 14px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            border-radius: 20px;
+            border: 1px solid rgba(90, 90, 90, 0.41);
+            text-decoration: none;
+            background: linear-gradient(135deg, #cdb4db, #ffc8dd);
+            color: #4a4a4a;
+            font-weight: 600;
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 18px rgba(205, 180, 219, 0.4);
+        }
+
+        .emoji {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="emoji">🌸</div>
+        <h1>FWI Prediction App</h1>
+        <p>Predict Fire Weather Index using environmental data in a simple and aesthetic way.</p>
+
+        <!-- Flask route -->
+        <a href="/predictdata" class="btn">Start Prediction ✨</a>
+    </div>
+
+</body>
+</html>
